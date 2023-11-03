@@ -1,12 +1,11 @@
-// src/pages/Home.js
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const users = [
-    { id: 1, name: "Usuário 1", description: "Descrição do Usuário 1", image: "link_da_imagem_1" },
-    { id: 2, name: "Usuário 2", description: "Descrição do Usuário 2", image: "link_da_imagem_2" },
-    { id: 3, name: "Usuário 3", description: "Descrição do Usuário 3", image: "link_da_imagem_3" },
+    { id: 1, name: "Usuário 1", description: "Descrição do Usuário 1", image: "/assets/user1.jpeg", },
+    { id: 2, name: "Usuário 2", description: "Descrição do Usuário 2", image: "/assets/user2.jpeg", },
+    { id: 3, name: "Usuário 3", description: "Descrição do Usuário 3", image: "/assets/user3.jpeg", },
   ];
 
   return (

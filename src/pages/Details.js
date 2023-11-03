@@ -1,9 +1,7 @@
-// src/pages/Details.js
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Details = () => {
-  // Suponha que você tenha o objeto do usuário com base no ID
   const user = {
     name: "Nome do Usuário",
     description: "Descrição do Usuário",
